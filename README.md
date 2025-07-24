@@ -2,4 +2,4 @@
 
 ### Simple Note App
 
-<img src="assets/IMG20250708.jpg" alt="test" width="300"/>
+<img src="assets/IMG20250724.jpg" alt="test" width="300"/>
