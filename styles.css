@@ -1,0 +1,82 @@
+:root {
+  font-family: Arial, sans-serif;
+  background-color: #15161E;
+  color: #C0CAF5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: repeating-linear-gradient(to right, transparent 0 64px, #A9B1D60D 64px 65px), repeating-linear-gradient(to bottom, transparent 0 64px, #A9B1D60D 64px 65px);
+}
+
+form {
+  width: max-content;
+  display: flex;
+  gap: 4px;
+  border-radius: 24px;
+  background-color: #BB9AF740;
+  margin: 8px;
+  padding: 6px 12px;
+}
+
+form > input, button {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  color: #C0CAF5;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+form > input::-webkit-color-swatch {
+  border-radius: 50%;
+}
+
+form > input::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+textarea {
+  all: unset;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.noten {
+  background-color: #15161E80;
+  width: max-content;
+  border-top: 32px solid #F7768E;
+  border-radius: 12px;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  position: absolute;
+  top: 64px;
+  left: 128px;
+}
+
+.noten > span {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  width: 24px;
+  height: 24px;
+  top: -28px;
+  right: 8px;
+  color: #15161E;
+  border-radius: 50%;
+  cursor: pointer;
+}
